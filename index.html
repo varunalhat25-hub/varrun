@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Vinod Alhat - Resume</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #3b82f6;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #334155;
+            --heading-color: #0f172a;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -2rem auto 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.5rem;
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        p, li {
+            margin-bottom: 0.75rem;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        .item {
+            margin-bottom: 1.5rem;
+        }
+
+        .item:last-child {
+            margin-bottom: 0;
+        }
+
+        .item-title {
+            font-weight: bold;
+            color: var(--heading-color);
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: #eff6ff;
+            color: var(--primary-color);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid #bfdbfe;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 640px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Varun Vinod Alhat</h1>
+        <p>Pune, Maharashtra | Varunalhat25@gmail.com</p>
+    </header>
+
+    <div class="container">
+
+        <section id="summary">
+            <h2>Professional Summary</h2>
+            <p>Aspiring finance and marketing professional pursuing a PGDM at the Institute of Management Development and Research (IMDR), Pune[cite: 1]. Interested in financial analysis, investment research, business strategy and data-driven decision-making[cite: 1]. Brings exposure to family-business operations, office administration, equity-market analysis and collaborative project work[cite: 1]. Adaptable, eager to learn and comfortable working in fast-paced environments[cite: 1].</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Financial Analysis</span>
+                <span class="skill-tag">Equity Market Research</span>
+                <span class="skill-tag">Investment Planning</span>
+                <span class="skill-tag">Advanced Excel (VLOOKUP, HLOOKUP, shortcuts)</span>
+                <span class="skill-tag">Power BI (Basics)</span>
+                <span class="skill-tag">SQL (Basics)</span>
+                <span class="skill-tag">Tally ERP</span>
+                <span class="skill-tag">Communication</span>
+                <span class="skill-tag">Negotiation</span>
+                <span class="skill-tag">Problem Solving</span>
+                <span class="skill-tag">Teamwork</span>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-title">Post Graduate Diploma in Management (PGDM)</div>
+                <p>Institute of Management Development and Research (IMDR), Pune | Currently pursuing[cite: 1]</p>
+            </div>
+            <div class="item">
+                <div class="item-title">Bachelor of Commerce (B.Com.)</div>
+                <p>PES Modern College of Arts, Science and Commerce, Shivajinagar (Autonomous) 2026 | CGPA: 6.0[cite: 1]</p>
+            </div>
+            <div class="item">
+                <div class="item-title">Higher Secondary Certificate (HSC), Commerce</div>
+                <p>Laxmanrao Apte Junior College - February 2023 | 69%[cite: 1]</p>
+            </div>
+            <div class="item">
+                <div class="item-title">Secondary School Certificate (SSC)</div>
+                <p>Bharatiya Vidya Bhavan - 2021 | 63%[cite: 1]</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="item">
+                <div class="item-title">Accessible Government Schemes Platform for Persons with Disabilities</div>
+                <p><em>Smart India Hackathon 2026 (SIH26129)</em>[cite: 1]</p>
+                <ul>
+                    <li>Collaborated with a six-member team to develop a prototype helping persons with disabilities discover, understand and access relevant government welfare schemes[cite: 1].</li>
+                    <li>Researched beneficiary groups and estimated the potential reach of selected schemes to help define the problem and shape the proposed solution[cite: 1].</li>
+                    <li>Presented the solution during the college-level Smart India Hackathon round, focusing on reducing awareness and access barriers[cite: 1].</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="item">
+                <div class="item-title">Office Assistant</div>
+                <p><strong>Rajveer Construction</strong></p>
+                <p>Gained experience supporting office and administrative activities[cite: 1].</p>
+            </div>
+            <div class="item">
+                <div class="item-title">Family Business Experience</div>
+                <p>Approximately 3 years[cite: 1]</p>
+                <ul>
+                    <li>Built practical exposure to day-to-day family-business operations[cite: 1].</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications & Additional Experience</h2>
+            <ul>
+                <li><strong>Equity Intraday Trading (2023-Present):</strong> Uses technical analysis and risk-management principles when reviewing equity-market opportunities; familiar with forex markets[cite: 1].</li>
+                <li>Security market analysis and investment research[cite: 1].</li>
+                <li>Volleyball and horse riding[cite: 1].</li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2>Languages</h2>
+            <p>English | Hindi | Marathi[cite: 1]</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Varun Vinod Alhat. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
